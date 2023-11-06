@@ -1,0 +1,9 @@
+PARALLAX EFFECT
+defini parallax adalah sebuah efek atau fenomena hasil dari perspektif pada ruang 3 dimensi ketika di beri pergerakan.
+1. fixed background scrolling body
+2.landing element
+3.slow element
+4.jib effect
+5.zoom effect
+6.mouse movent
+7.horizontal scrolling
