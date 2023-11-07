@@ -10,7 +10,7 @@ $(document).ready(function() {
     });
 });
 // parallax
-// about
+// about dan skill
 $(window).on('load', function () {
     $('.kr').addClass('Pon');
     $('.kn').addClass('Pon');

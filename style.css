@@ -44,6 +44,49 @@ section {
 	min-height: 600px;
 }
 
+/* card skill */
+.card {
+	width: auto;
+	height: auto;
+	border-radius: 4px;
+	display: flex;
+	gap: 5px;
+	padding: .4em;
+  }
+  
+  .card p {
+	height: 100%;
+	flex: 1;
+	overflow: hidden;
+	cursor: pointer;
+	border-radius: 2px;
+	transition: all .5s;
+	border: 1px solid #eaeaea;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .card p:hover {
+	flex: 4;
+  }
+  
+  .card p img {
+	min-width: 14em;
+	padding: .1em;
+	text-align: center;
+	transform: rotate(-90deg);
+	transition: all .5s;
+	text-transform: uppercase;
+	color: #ff568e;
+	letter-spacing: .1em;
+  }
+  
+  .card p:hover img {
+	transform: rotate(0);
+  }
+/* card skill end */
+
 .kr {
 	opacity: 0;
 	transform: translate(-200px, 0);
