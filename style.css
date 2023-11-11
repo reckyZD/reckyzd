@@ -7,7 +7,6 @@ html {
 body {
 	margin-top: 30px;
 	margin-bottom: 120px;
-	background-image: url(aset/herringbone.webp);
 
 }
 
@@ -26,8 +25,41 @@ body {
 	width: 200px;
 }
 
+.jumbotron h1 {
+	font-size: 5rem;
+	transform: skewX(0deg);
+	animation: shift 5s ease-in-out infinite alternate;
+}
+
+@keyframes shift {
+	0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {
+		transform: skewX(0deg);
+	}
+	41% {
+		transform: skewX(10deg);
+	}
+	42% {
+		transform: skewX(-10deg);
+	}
+	59% {
+		transform: skew(40deg) skewY(10deg);
+	}
+	60% {
+		transform: skewX(-40deg) skewY(-10deg);
+	}
+	63% {
+		transform: skew(10deg) skewY(-5deg);
+	}
+	70% {
+		transform: skewX(-50deg) skewY(-20deg);
+	}
+	71% {
+		transform: skewX(10deg) skewY(-10deg);
+	}
+}
+
 .jumbotron h1, .jumbotron p, .jumbotron span {
-	color:#71df11;
+	color: #6246ea;
 	text-shadow: 2px 2px 10px rgba(0,0,0,.5);
 }
 
@@ -35,6 +67,11 @@ body {
 	margin-top: 10px;
 	text-align: center;
 }
+
+h3 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 hr {
 	width: 250px;
 	border-top: 3px solid #333;
@@ -43,6 +80,20 @@ hr {
 section {
 	min-height: 600px;
 }
+
+.skill, .about, .contact {
+	background-image: url(aset/webb.png);
+}
+
+.portofolio {
+	background-image: url(aset/webb-dark.png);
+	color: #fff;
+}
+
+.portofolio hr {
+	border-top: 3px solid #fff;
+}
+
 
 /* card skill */
 .card {
@@ -190,7 +241,7 @@ section {
 .prev {
 	position: absolute;
 	top: 50%;
-	margin-left: 50px;
+	margin-left: auto;
 	font-size: 50px;
 	opacity: 0;
 }
