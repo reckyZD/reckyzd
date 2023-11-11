@@ -1,5 +1,7 @@
-### Hi there 👋
-
+### Hi everyone 👋
+ i'm recky afriansyah. saya saat ini bekerja di salah satu sekolah swasta sebagai operator emis atau user champion.
+ dan saat ini saya sedang mempelajari dunia coding alasan utama kenapa saya mempelajari itu karena basic saya senang dengan ilmu/pengetahuan tentang teknologi.,
+ 
 <!--
 **reckyZD/reckyzd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
